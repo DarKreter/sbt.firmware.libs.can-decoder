@@ -25,6 +25,7 @@ sourceIDtoName[13] = "PUMPS_CONTROLLER"
 sourceIDtoName[14] = "CPB_CONTROLLER"
 sourceIDtoName[15] = "PiBox"
 sourceIDtoName[16] = "GPS_CONTROLLER"
+sourceIDtoName[17] = "YOKE"
 
 
 nameToSourceID = dict()
@@ -45,6 +46,7 @@ nameToSourceID["PUMPS_CONTROLLER"] = 13
 nameToSourceID["CPB_CONTROLLER"] = 14
 nameToSourceID["PiBox"] = 15
 nameToSourceID["GPS_CONTROLLER"] = 16
+nameToSourceID["YOKE"] = 17
 
 
 paramIDtoName = dict()
@@ -64,6 +66,7 @@ paramIDtoName[12] = "GEODETIC_POSITION_1"
 paramIDtoName[13] = "GEODETIC_POSITION_2"
 paramIDtoName[14] = "NED_VELOCITY"
 paramIDtoName[15] = "NED_HEADING"
+paramIDtoName[16] = "YOKE_GENERAL"
 
 
 nameToParamID = dict()
@@ -83,6 +86,7 @@ nameToParamID["GEODETIC_POSITION_1"] = {'GroupID': 0, 'ParamID': 12, 'Priority':
 nameToParamID["GEODETIC_POSITION_2"] = {'GroupID': 0, 'ParamID': 13, 'Priority': 7}
 nameToParamID["NED_VELOCITY"] = {'GroupID': 0, 'ParamID': 14, 'Priority': 6}
 nameToParamID["NED_HEADING"] = {'GroupID': 0, 'ParamID': 15, 'Priority': 7}
+nameToParamID["YOKE_GENERAL"] = {'GroupID': 0, 'ParamID': 16, 'Priority': 2}
 
 
 groupIDtoName = dict()
