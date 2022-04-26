@@ -67,6 +67,7 @@ paramIDtoName[13] = "GEODETIC_POSITION_2"
 paramIDtoName[14] = "NED_VELOCITY"
 paramIDtoName[15] = "NED_HEADING"
 paramIDtoName[16] = "YOKE_GENERAL"
+paramIDtoName[17] = "PUMPS_THRESHOLD"
 
 
 nameToParamID = dict()
@@ -87,6 +88,7 @@ nameToParamID["GEODETIC_POSITION_2"] = {'GroupID': 0, 'ParamID': 13, 'Priority':
 nameToParamID["NED_VELOCITY"] = {'GroupID': 0, 'ParamID': 14, 'Priority': 6}
 nameToParamID["NED_HEADING"] = {'GroupID': 0, 'ParamID': 15, 'Priority': 7}
 nameToParamID["YOKE_GENERAL"] = {'GroupID': 0, 'ParamID': 16, 'Priority': 2}
+nameToParamID["PUMPS_THRESHOLD"] = {'GroupID': 0, 'ParamID': 17, 'Priority': 2}
 
 
 groupIDtoName = dict()
