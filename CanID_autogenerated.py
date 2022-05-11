@@ -26,6 +26,7 @@ sourceIDtoName[14] = "CPB_CONTROLLER"
 sourceIDtoName[15] = "PiBox"
 sourceIDtoName[16] = "GPS_CONTROLLER"
 sourceIDtoName[17] = "YOKE"
+sourceIDtoName[18] = "TEMPERATURE_BOX"
 
 
 nameToSourceID = dict()
@@ -47,6 +48,7 @@ nameToSourceID["CPB_CONTROLLER"] = 14
 nameToSourceID["PiBox"] = 15
 nameToSourceID["GPS_CONTROLLER"] = 16
 nameToSourceID["YOKE"] = 17
+nameToSourceID["TEMPERATURE_BOX"] = 18
 
 
 paramIDtoName = dict()
@@ -68,6 +70,7 @@ paramIDtoName[14] = "NED_VELOCITY"
 paramIDtoName[15] = "NED_HEADING"
 paramIDtoName[16] = "YOKE_GENERAL"
 paramIDtoName[17] = "PUMPS_THRESHOLD"
+paramIDtoName[18] = "TEMPERATURE_POWERBOX"
 
 
 nameToParamID = dict()
@@ -89,6 +92,7 @@ nameToParamID["NED_VELOCITY"] = {'GroupID': 0, 'ParamID': 14, 'Priority': 6}
 nameToParamID["NED_HEADING"] = {'GroupID': 0, 'ParamID': 15, 'Priority': 7}
 nameToParamID["YOKE_GENERAL"] = {'GroupID': 0, 'ParamID': 16, 'Priority': 2}
 nameToParamID["PUMPS_THRESHOLD"] = {'GroupID': 0, 'ParamID': 17, 'Priority': 2}
+nameToParamID["TEMPERATURE_POWERBOX"] = {'GroupID': 0, 'ParamID': 18, 'Priority': 5}
 
 
 groupIDtoName = dict()
